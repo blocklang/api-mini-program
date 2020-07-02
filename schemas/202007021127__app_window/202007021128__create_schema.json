@@ -1,0 +1,106 @@
+{
+    "id": "create-app-window",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "app.Window",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "navigationBarBackgroundColor",
+                        "type": "string",
+                        "default": "#000000",
+                        "description": "导航栏背景颜色"
+                    },
+                    {
+                        "name": "navigationBarTextStyle",
+                        "type": "string",
+                        "default": "white",
+                        "enum": [
+                            "black",
+                            "white"
+                        ],
+                        "description": "导航栏标题颜色"
+                    },
+                    {
+                        "name": "navigationBarTitleText",
+                        "type": "string",
+                        "description": "导航栏标题文字内容"
+                    },
+                    {
+                        "name": "navigationStyle",
+                        "type": "string",
+                        "default": "default",
+                        "enum": [
+                            "default",
+                            "custom"
+                        ],
+                        "description": "导航栏样式"
+                    },
+                    {
+                        "name": "backgroundColor",
+                        "type": "string",
+                        "default": "#ffffff",
+                        "description": "窗口的背景色"
+                    },
+                    {
+                        "name": "backgroundTextStyle",
+                        "type": "string",
+                        "default": "dark",
+                        "enum": [
+                            "dark",
+                            "light"
+                        ],
+                        "description": ""
+                    },
+                    {
+                        "name": "navigationBarTextStyle",
+                        "type": "string",
+                        "default": "dark",
+                        "enum": [
+                            "black",
+                            "white"
+                        ],
+                        "description": "下拉 loading 的样式"
+                    },
+                    {
+                        "name": "backgroundColorTop",
+                        "type": "string",
+                        "default": "#ffffff",
+                        "description": "顶部窗口的背景色，仅 iOS 支持"
+                    },
+                    {
+                        "name": "backgroundColorBottom",
+                        "type": "string",
+                        "default": "#ffffff",
+                        "description": "底部窗口的背景色，仅 iOS 支持"
+                    },
+                    {
+                        "name": "enablePullDownRefresh",
+                        "type": "boolean",
+                        "default": "false",
+                        "description": "是否开启全局的下拉刷新。"
+                    },
+                    {
+                        "name": "onReachBottomDistance",
+                        "type": "number",
+                        "default": "50",
+                        "description": "页面上拉触底事件触发时距页面底部距离，单位为 px。"
+                    },
+                    {
+                        "name": "pageOrientation",
+                        "type": "string",
+                        "default": "portrait",
+                        "enum": [
+                            "auto",
+                            "portrait",
+                            "landscape"
+                        ],
+                        "description": "屏幕旋转设置"
+                    }
+                ]
+            }
+        }
+    ]
+}

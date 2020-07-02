@@ -1,0 +1,35 @@
+{
+    "id": "create-launch-show-option",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createSchema": {
+                "name": "app.LaunchShowOption",
+                "type": "object",
+                "properties": [
+                    {
+                        "name": "path",
+                        "type": "string",
+                        "description": "启动小程序的路径 (代码包路径)"
+                    }, {
+                        "name": "scene",
+                        "type": "number",
+                        "description": "启动小程序的场景值"
+                    }, {
+                        "name": "shareTicket",
+                        "type": "string",
+                        "description": "shareTicket"
+                    }, {
+                        "name": "query",
+                        "type": "object",
+                        "description": "启动小程序的 query 参数"
+                    }, {
+                        "name": "referrerInfo",
+                        "type": "object",
+                        "description": "来源信息。从另一个小程序、公众号或 App 进入小程序时返回。否则返回 {}。"
+                    }
+                ]
+            }
+        }
+    ]
+}

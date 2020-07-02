@@ -1,0 +1,64 @@
+{
+    "id": "create_app",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createWidget": {
+                "name": "App",
+                "properties": [
+                    {
+                        "name": "window",
+                        "label": "全局的默认窗口表现",
+                        "valueType": "app.Window"
+                    },
+                    {
+                        "name": "tabBar",
+                        "label": "底部 tab 栏的表现",
+                        "valueType": "app.TabBar"
+                    }
+                ],
+                "events": [
+                    {
+                        "name": "onLaunch",
+                        "description": "生命周期回调——监听小程序初始化。",
+                        "arguments": [{
+                            "name": "options",
+                            "label": "options",
+                            "valueType": "app.LaunchShowOption"
+                        }]
+                    },
+                    {
+                        "name": "onShow",
+                        "description": "生命周期回调——监听小程序启动或切前台。",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onHide",
+                        "description": "生命周期回调——监听小程序切后台。",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onError",
+                        "description": "错误监听函数。",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onPageNotFound",
+                        "description": "页面不存在监听函数。",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onUnhandledRejection",
+                        "description": "未处理的 Promise 拒绝事件监听函数。",
+                        "arguments": []
+                    },
+                    {
+                        "name": "onThemeChange",
+                        "description": "监听系统主题变化",
+                        "arguments": []
+                    }
+                ]
+            }
+        }
+    ]
+}
