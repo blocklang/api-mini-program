@@ -10,11 +10,6 @@
                         "name": "window",
                         "label": "全局的默认窗口表现",
                         "valueType": "app.Window"
-                    },
-                    {
-                        "name": "tabBar",
-                        "label": "底部 tab 栏的表现",
-                        "valueType": "app.TabBar"
                     }
                 ],
                 "events": [
