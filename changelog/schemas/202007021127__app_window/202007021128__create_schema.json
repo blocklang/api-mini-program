@@ -55,7 +55,7 @@
                         "description": ""
                     },
                     {
-                        "name": "navigationBarTextStyle",
+                        "name": "backgroundTextStyle",
                         "type": "string",
                         "default": "dark",
                         "enum": [
