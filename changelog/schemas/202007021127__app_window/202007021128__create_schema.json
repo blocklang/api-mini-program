@@ -49,16 +49,6 @@
                         "type": "string",
                         "default": "dark",
                         "enum": [
-                            "dark",
-                            "light"
-                        ],
-                        "description": ""
-                    },
-                    {
-                        "name": "backgroundTextStyle",
-                        "type": "string",
-                        "default": "dark",
-                        "enum": [
                             "black",
                             "white"
                         ],
